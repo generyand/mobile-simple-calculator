@@ -9,13 +9,13 @@
     
     <RelativeLayout
         android:layout_width="match_parent"
-        android:layout_height="200dp">
+        android:layout_height="250dp">
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:textSize="100sp"
-            android:layout_margin="6dp"
+            android:layout_margin="12dp"
             android:layout_alignParentEnd="true"
             android:layout_alignParentBottom="true"
             android:text="0"/>
@@ -24,9 +24,59 @@
 
     <GridLayout
         android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:columnCount="5"
+        android:alignmentMode="alignMargins"
+        android:layout_margin="12dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            android:text="MC"
+            android:gravity="center"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            android:text="MR"
+            android:gravity="center"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            android:text="M+"
+            android:gravity="center"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            android:text="M-"
+            android:gravity="center"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            android:text="MS"
+            android:gravity="center"/>
+
+    </GridLayout>
+
+    <GridLayout
+        android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:columnCount="4"
-        android:alignmentMode="alignMargins">
+        android:alignmentMode="alignMargins"
+        android:layout_margin="8dp">
 
         <androidx.cardview.widget.CardView
             android:layout_width="wrap_content"
@@ -41,8 +91,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:orientation="vertical"
-                android:gravity="center"
-                android:padding="16dp">
+                android:gravity="center">
 
                 <TextView
                     android:layout_width="wrap_content"
