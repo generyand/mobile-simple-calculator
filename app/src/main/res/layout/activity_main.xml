@@ -6,7 +6,8 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     tools:context=".MainActivity">
-    
+
+    <!-- Input/Output View -->
     <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="250dp">
@@ -22,6 +23,7 @@
 
     </RelativeLayout>
 
+    <!-- Buttons -->
     <GridLayout
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -52,6 +54,14 @@
             android:layout_columnWeight="1"
             android:layout_rowWeight="1"
             android:text="M+"
+            android:gravity="center"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            android:text="M-"
             android:gravity="center"/>
 
         <Button
@@ -97,6 +107,7 @@
             </LinearLayout>
 
         </androidx.cardview.widget.CardView>
+
         <androidx.cardview.widget.CardView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -124,6 +135,7 @@
 
 
         </androidx.cardview.widget.CardView>
+
         <androidx.cardview.widget.CardView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -151,6 +163,7 @@
 
 
         </androidx.cardview.widget.CardView>
+
         <androidx.cardview.widget.CardView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -177,6 +190,7 @@
 
 
         </androidx.cardview.widget.CardView>
+
         <androidx.cardview.widget.CardView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -204,6 +218,7 @@
 
 
         </androidx.cardview.widget.CardView>
+
         <androidx.cardview.widget.CardView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -231,6 +246,7 @@
 
 
         </androidx.cardview.widget.CardView>
+
         <androidx.cardview.widget.CardView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -258,6 +274,7 @@
 
 
         </androidx.cardview.widget.CardView>
+
         <androidx.cardview.widget.CardView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -285,6 +302,7 @@
 
 
         </androidx.cardview.widget.CardView>
+
         <androidx.cardview.widget.CardView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -312,6 +330,7 @@
 
 
         </androidx.cardview.widget.CardView>
+
         <androidx.cardview.widget.CardView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -339,6 +358,7 @@
 
 
         </androidx.cardview.widget.CardView>
+
         <androidx.cardview.widget.CardView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -366,6 +386,7 @@
 
 
         </androidx.cardview.widget.CardView>
+
         <androidx.cardview.widget.CardView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -393,6 +414,7 @@
 
 
         </androidx.cardview.widget.CardView>
+
         <androidx.cardview.widget.CardView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -420,6 +442,7 @@
 
 
         </androidx.cardview.widget.CardView>
+
         <androidx.cardview.widget.CardView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -447,6 +470,7 @@
 
 
         </androidx.cardview.widget.CardView>
+
         <androidx.cardview.widget.CardView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -474,6 +498,7 @@
 
 
         </androidx.cardview.widget.CardView>
+
         <androidx.cardview.widget.CardView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -501,6 +526,7 @@
 
 
         </androidx.cardview.widget.CardView>
+
         <androidx.cardview.widget.CardView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -528,6 +554,7 @@
 
 
         </androidx.cardview.widget.CardView>
+
         <androidx.cardview.widget.CardView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -555,6 +582,7 @@
 
 
         </androidx.cardview.widget.CardView>
+
         <androidx.cardview.widget.CardView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -582,6 +610,7 @@
 
 
         </androidx.cardview.widget.CardView>
+
         <androidx.cardview.widget.CardView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -609,6 +638,7 @@
 
 
         </androidx.cardview.widget.CardView>
+
         <androidx.cardview.widget.CardView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -636,6 +666,7 @@
 
 
         </androidx.cardview.widget.CardView>
+
         <androidx.cardview.widget.CardView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -663,6 +694,7 @@
 
 
         </androidx.cardview.widget.CardView>
+
         <androidx.cardview.widget.CardView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -718,7 +750,6 @@
 
 
         </androidx.cardview.widget.CardView>
-
 
     </GridLayout>
 
